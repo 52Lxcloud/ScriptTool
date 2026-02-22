@@ -1,0 +1,39 @@
+{
+  "description": "搜索并下载QQ音乐歌曲",
+  "version": "1.0.0",
+  "localizedNames": {
+    "es": "",
+    "fr": "",
+    "de": "",
+    "zh": "",
+    "en": "",
+    "ru": "",
+    "ja": "",
+    "pt": "",
+    "it": ""
+  },
+  "color": "rgba(28, 140, 255,1)",
+  "contributors": [],
+  "name": "QQ音乐下载",
+  "iconImage": null,
+  "remoteResource": null,
+  "icon": "music.note",
+  "runInApp": false,
+  "author": {
+    "email": "52lxcloud@gmail.com",
+    "name": "凉心",
+    "homepage": "https://t.me/Lx_hub"
+  },
+  "localizedDescriptions": {
+    "es": "",
+    "fr": "",
+    "de": "",
+    "zh": "",
+    "en": "",
+    "ru": "",
+    "ja": "",
+    "pt": "",
+    "it": ""
+  },
+  "intentInputTypes": []
+}
