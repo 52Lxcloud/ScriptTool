@@ -1,0 +1,19 @@
+{
+  "description": "搜索、播放与下载音乐",
+  "version": "1.1.0",
+  "localizedNames": {},
+  "color": "rgba(28, 140, 255,1)",
+  "contributors": [],
+  "name": "LxMusic",
+  "iconImage": null,
+  "remoteResource": null,
+  "icon": "music.note",
+  "runInApp": false,
+  "author": {
+    "email": "52lxcloud@gmail.com",
+    "name": "凉心",
+    "homepage": "https://t.me/Lx_hub"
+  },
+  "localizedDescriptions": {},
+  "intentInputTypes": []
+}
