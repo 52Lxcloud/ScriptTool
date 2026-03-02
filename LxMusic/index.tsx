@@ -75,7 +75,6 @@ const CHANGELOG: Array<{ version: string; date: string; changes: string[] }> = [
     changes: [
       '搜索 QQ 音乐曲库',
       '长按下载歌曲到本地',
-      'Cookie 配置与测试',
     ],
   },
 ]
@@ -709,7 +708,7 @@ function SettingsView() {
                     toolbar={{
                       topBarTrailing: (
                         <Button action={() => setShowChangelog(false)} buttonStyle="plain">
-                          <Text>完成</Text>
+                          <Image systemName="checkmark.circle.fill" foregroundStyle="systemBlue" font="title3" />
                         </Button>
                       ),
                     }}

@@ -15,12 +15,28 @@
 - 全屏播放器 - 封面模式 + 歌词模式，可切换
 - Mini 播放器 - Liquid Glass 风格底部常驻
 
+### AnjieDoor
+
+安杰智慧社区一键开门。
+
+**主要功能：**
+- 一键开门 - 自动登录并调用开门接口
+- 控制组件 - 主屏幕 Widget 一键触发，无需进入 App
+- 缓存机制 - 本地缓存门锁信息，加速开门流程
+- App Intent - 支持 Siri / 快捷指令调用
+
 ## 项目结构
 
 ```
 ScriptTool/
 ├── LxMusic/                 # LxMusic 音乐播放器
 │   ├── index.tsx            # 主程序
+│   └── script.json          # 配置文件
+├── AnjieDoor/               # 安杰智慧社区开门
+│   ├── index.tsx            # 主程序
+│   ├── control_widget_button.tsx  # 控制组件按钮
+│   ├── app_intents.tsx      # App Intent 定义
+│   ├── shared.ts            # 共享类型与工具函数
 │   └── script.json          # 配置文件
 └── README.md                # 项目说明
 ```

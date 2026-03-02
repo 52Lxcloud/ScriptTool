@@ -1,0 +1,25 @@
+{
+  "author": {
+    "email": "52lxcloud@gmail.com",
+    "homepage": "https:\/\/t.me\/Lx_hub",
+    "name": "凉心"
+  },
+  "icon": "door.left.hand.open",
+  "color": "rgba(0, 198, 165,1)",
+  "localizedDescriptions": {
+    "zh": "安杰智慧社区 · 一键开门",
+    "en": "Anjie Smart Community - One-Click Door Open"
+  },
+  "runInApp": false,
+  "version": "1.0.0",
+  "intentInputTypes": [],
+  "name": "一键开门",
+  "remoteResource": null,
+  "description": "安杰智慧社区一键开门",
+  "contributors": [],
+  "iconImage": "",
+  "localizedNames": {
+    "zh": "安杰开门",
+    "en": "Anjie Door"
+  }
+}
