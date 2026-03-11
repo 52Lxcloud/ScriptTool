@@ -1,25 +1,33 @@
 {
-  "author": {
-    "email": "52lxcloud@gmail.com",
-    "homepage": "https:\/\/t.me\/Lx_hub",
-    "name": "凉心"
+  "localizedDescriptions" : {
+    "en" : "Anjie Smart Community - One-Click Door Open",
+    "zh" : "安杰智慧社区 · 一键开门"
   },
-  "icon": "door.left.hand.open",
-  "color": "rgba(0, 198, 165,1)",
-  "localizedDescriptions": {
-    "zh": "安杰智慧社区 · 一键开门",
-    "en": "Anjie Smart Community - One-Click Door Open"
+  "localizedNames" : {
+    "en" : "Anjie Door",
+    "zh" : "安杰开门"
   },
-  "runInApp": false,
-  "version": "1.0.0",
-  "intentInputTypes": [],
-  "name": "Anjie Door",
-  "remoteResource": null,
-  "description": "安杰智慧社区一键开门",
-  "contributors": [],
-  "iconImage": "",
-  "localizedNames": {
-    "zh": "安杰开门",
-    "en": "Anjie Door"
+  "version" : "1.0.0",
+  "name" : "Anjie Door",
+  "contributors" : [
+
+  ],
+  "iconImage" : "",
+  "icon" : "door.left.hand.open",
+  "description" : "安杰智慧社区一键开门",
+  "author" : {
+    "name" : "凉心",
+    "homepage" : "https:\/\/t.me\/Lx_hub",
+    "email" : "52lxcloud@gmail.com"
+  },
+  "intentInputTypes" : [
+
+  ],
+  "color" : "rgba(0, 198, 165,1)",
+  "runInApp" : false,
+  "remoteResource" : {
+    "hash" : "57d1472d1efc4227a5c03cdcda5281d4",
+    "url" : "https:\/\/github.com\/52Lxcloud\/ScriptTool\/raw\/refs\/heads\/release\/Anjie%20Door.scripting",
+    "autoUpdateInterval" : 86400
   }
 }

@@ -4,11 +4,15 @@ import { fetch } from 'scripting'
 
 export const SECRET = 'p!P2QklnjGGaZKlw'
 export const HOST = 'http://app.njanjar.com'
-export const MOBILE_KEY = 'anjie.mobile'
-export const PASSWORD_KEY = 'anjie.password'
+export const AUTH_KEY = 'anjie.auth'
 export const CACHE_KEY = 'anjie.cached_door'
 
 // ============ 类型 ============
+
+export interface AuthInfo {
+    mobile: string
+    password: string
+}
 
 export interface Unit {
     COMMUNITYID: number
