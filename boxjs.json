@@ -1,0 +1,117 @@
+{
+	"id": "Lxcloud.app.sub",
+	"name": "凉心Tools",
+	"author": "@凉心",
+	"icon": "https://avatars.githubusercontent.com/u/48159191?v=4&w=256&q=75",
+	"repo": "https://github.com/52Lxcloud/ScriptKit",
+	"apps": [
+		{
+			"id": "FlarumCheckin",
+			"name": "Flarum 签到",
+			"keys": ["Flarum.Sites", "Flarum.Accounts"],
+			"settings": [
+				{
+					"id": "Flarum.Sites",
+					"name": "域名列表",
+					"val": "",
+					"type": "textarea",
+					"placeholder": "xxx.com",
+					"desc": "多个用 ; 分隔"
+				},
+				{
+					"id": "Flarum.Accounts",
+					"name": "账号列表",
+					"val": "",
+					"type": "textarea",
+					"placeholder": "user:pass",
+					"desc": "格式: 用户名:密码，多个用 ; 分隔，与域名顺序对应"
+				}
+			],
+			"author": "@凉心",
+			"repo": "https://github.com/52Lxcloud/ScriptKit",
+			"icons": [
+				"https://flarum.org/android-chrome-192x192.png",
+				"https://flarum.org/android-chrome-192x192.png"
+			]
+		},
+		{
+			"id": "AkileCheckin",
+			"name": "AkileCloud 签到",
+			"keys": ["Akile.Accounts"],
+			"settings": [
+				{
+					"id": "Akile.Accounts",
+					"name": "账号列表",
+					"val": "",
+					"type": "textarea",
+					"placeholder": "email:pass",
+					"desc": "格式: 邮箱:密码，多个用 ; 分隔"
+				}
+			],
+			"author": "@凉心",
+			"repo": "https://github.com/52Lxcloud/ScriptKit",
+			"icons": [
+				"https://akile.ai/logo-apple-512x512.png",
+				"https://akile.ai/logo-apple-512x512.png"
+			]
+		},
+		{
+			"id": "V2EXCheckin",
+			"name": "V2EX 签到",
+			"keys": ["V2EX.User", "V2EX.Cookie"],
+			"settings": [
+				{
+					"id": "V2EX.User",
+					"name": "用户名",
+					"val": "",
+					"type": "text",
+					"placeholder": "选填，留空则所有用户页触发",
+					"desc": "填写后仅访问自己主页时抓取 Cookie"
+				},
+				{
+					"id": "V2EX.Cookie",
+					"name": "Cookie",
+					"val": "",
+					"type": "textarea",
+					"placeholder": "自动抓取，一般无需手动填写",
+					"desc": "访问 V2EX 后自动获取，也可手动粘贴"
+				}
+			],
+			"author": "@凉心",
+			"repo": "https://github.com/52Lxcloud/ScriptKit",
+			"icons": [
+				"https://www.v2ex.com/static/img/icon_rayps_64.png",
+				"https://www.v2ex.com/static/img/icon_rayps_64.png"
+			]
+		},
+		{
+			"id": "NodeseekCheckin",
+			"name": "NodeSeek 签到",
+			"keys": ["Nodeseek.User", "Nodeseek.Headers"],
+			"settings": [
+				{
+					"id": "Nodeseek.User",
+					"name": "用户UID",
+					"val": "",
+					"type": "text",
+					"placeholder": "选填，个人主页链接 /space 后的数字",
+					"desc": "填写后仅访问自己主页时抓取 Headers"
+				},
+				{
+					"id": "Nodeseek.Headers",
+					"name": "Headers",
+					"val": "",
+					"type": "textarea",
+					"placeholder": "自动抓取，一般无需手动填写",
+					"desc": "访问个人主页后自动获取，也可手动粘贴 JSON"
+				}
+			],
+			"author": "@凉心",
+			"repo": "https://github.com/52Lxcloud/ScriptKit",
+			"icons": [
+				"https://www.nodeseek.com/favicon.ico",
+				"https://www.nodeseek.com/favicon.ico"
+			]
+		}
+	]
+}

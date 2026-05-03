@@ -1,0 +1,10 @@
+#!name=Flarum 签到
+#!desc=每日签到 · 账号登录 · 多站点
+#!author=凉心
+#!category=凉心Tools
+#!date=2026-05-03 00:43:25
+#!arguments=CronExp:10 8 * * *,Sites:xxx.com,Accounts:user:pass
+#!arguments-desc=CronExp:签到时间 (Cron 表达式)\nSites:域名列表 (多个用 ; 分隔)\nAccounts:账号列表 (格式: 用户名:密码，多个用 ; 分隔，与域名顺序对应)
+
+[Script]
+Flarum_Checkin=type=cron,cronexp="{{{CronExp}}}",wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Scripts/flarum.js,argument="Sites={{{Sites}}}&Accounts={{{Accounts}}}"

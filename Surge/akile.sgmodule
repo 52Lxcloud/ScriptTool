@@ -1,0 +1,10 @@
+#!name=AkileCloud 签到
+#!desc=每日签到 · 账号登录
+#!author=凉心
+#!category=凉心Tools
+#!date=2026-05-03 00:43:25
+#!arguments=CronExp:30 7 * * *,Accounts:email:pass
+#!arguments-desc=CronExp:签到时间 (Cron 表达式)\nAccounts:账号列表 (格式: 邮箱:密码，多个用 ; 分隔)
+
+[Script]
+Akile_Checkin=type=cron,cronexp="{{{CronExp}}}",wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Scripts/akile.js,argument="Accounts={{{Accounts}}}"

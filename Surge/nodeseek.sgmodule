@@ -1,0 +1,14 @@
+#!name=Nodeseek签到
+#!desc=自动签到领鸡腿 · Headers 抓取
+#!author=凉心
+#!category=凉心Tools
+#!date=2026-05-03 00:43:25
+#!arguments=CronExp:07 0 * * *,USER_ID:[0-9]+
+#!arguments-desc=CronExp:签到时间 (Cron)\n\nUSER_ID:用户UID\n点击头像进入个人主页链接/space后的数字为用户UID
+
+[Script]
+Nodeseek_Header=type=http-request,pattern=^https:\/\/www\.nodeseek\.com\/api\/account\/getInfo\/{{{USER_ID}}}\?readme=1$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Scripts/nodeseek.js
+Nodeseek_Checkin=type=cron,cronexp="{{{CronExp}}}",wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Scripts/nodeseek.js
+
+[MITM]
+hostname = %APPEND% www.nodeseek.com

@@ -1,0 +1,14 @@
+#!name=V2EX 签到
+#!desc=每日领取铜币 · Cookie 自动抓取
+#!author=凉心
+#!category=凉心Tools
+#!date=2026-05-03 00:43:25
+#!arguments=CronExp:10 0 * * *,User:.*
+#!arguments-desc=CronExp:签到时间 (Cron)\n\nUser:用户名\n填写用户名后仅个人主页触发Cookie抓取
+
+[Script]
+V2EX_Cookie=type=http-request,pattern=^https?:\/\/www\.v2ex\.com\/member\/{{{User}}},requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Scripts/v2ex.js
+V2EX_Checkin=type=cron,cronexp="{{{CronExp}}}",wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Scripts/v2ex.js
+
+[MITM]
+hostname = %APPEND% www.v2ex.com
