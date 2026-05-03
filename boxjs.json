@@ -30,8 +30,8 @@
 			"author": "@凉心",
 			"repo": "https://github.com/52Lxcloud/ScriptKit",
 			"icons": [
-				"https://flarum.org/android-chrome-192x192.png",
-				"https://flarum.org/android-chrome-192x192.png"
+				"https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Icons/flarum.png",
+				"https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Icons/flarum.png"
 			]
 		},
 		{
@@ -51,8 +51,8 @@
 			"author": "@凉心",
 			"repo": "https://github.com/52Lxcloud/ScriptKit",
 			"icons": [
-				"https://akile.ai/logo-apple-512x512.png",
-				"https://akile.ai/logo-apple-512x512.png"
+				"https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Icons/akile.png",
+				"https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Icons/akile.png"
 			]
 		},
 		{
@@ -80,8 +80,8 @@
 			"author": "@凉心",
 			"repo": "https://github.com/52Lxcloud/ScriptKit",
 			"icons": [
-				"https://www.v2ex.com/static/img/icon_rayps_64.png",
-				"https://www.v2ex.com/static/img/icon_rayps_64.png"
+				"https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Icons/v2ex.png",
+				"https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Icons/v2ex.png"
 			]
 		},
 		{
@@ -109,8 +109,8 @@
 			"author": "@凉心",
 			"repo": "https://github.com/52Lxcloud/ScriptKit",
 			"icons": [
-				"https://www.nodeseek.com/favicon.ico",
-				"https://www.nodeseek.com/favicon.ico"
+				"https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Icons/nodeseek.png",
+				"https://raw.githubusercontent.com/52Lxcloud/ScriptKit/main/Icons/nodeseek.png"
 			]
 		}
 	]
